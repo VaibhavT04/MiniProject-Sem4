@@ -80,17 +80,18 @@ nav{
 
 .left h2{
     font-family: 'Poppins', sans-serif;
-    color:rgb(24, 149, 149);
+    color:rgb(28, 179, 179);
 }
 
 .left h1{
     font-family: 'Marhey', sans-serif;
-    color:rgb(24, 149, 149);
+    color:rgb(25, 163, 163);
     font-size: 50px;
 }
 
 .left p{
     width: 80%;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     line-height: 2.5rem;
 }
