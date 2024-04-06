@@ -1,0 +1,255 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Kanit', sans-serif;
+font-family: 'Marhey', sans-serif;*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('banner1.jpg');
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 1.1em;
+    padding: 0.5rem 1rem;
+}
+
+.menu i{
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background: rgb(24, 149, 149);
+    border-radius: 5px;
+}
+
+.menu i:hover{
+    color: black;
+    background: rgb(245, 250, 250);
+    border-radius: 5px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.right{
+    flex-basis: 15%;
+    margin-right: 320px;
+}
+
+.right img{
+    width: 260%;
+    height: 200%;
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(24, 149, 149);
+}
+
+.left h1{
+    font-family: 'Marhey', sans-serif;
+    color:rgb(24, 149, 149);
+    font-size: 50px;
+}
+
+.left p{
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+
+#hire{
+    text-decoration: none;
+    background: rgb(24, 149, 149); 
+    color: aliceblue;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+
+#myp{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px dashed whitesmoke;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+
+#bio{
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftbio{
+    flex-basis: 40%;
+}
+
+.rightbio{
+    flex-basis: 60%;
+}
+
+.leftbio img{
+    width: 90%;
+    height: 690px;
+    border-radius: 8px;
+}
+
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+
+.rightbio h1{
+    font-size: 2.5rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow{
+    text-align: center;
+}
+
+#follow i{
+    color: rgb(160, 26, 35);
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    border: 2px solid grey;
+}
+
+
+#services{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro h1{
+    font-size: 3rem;
+}
+
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.cardbody{
+    flex-basis: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.7rem;
+}
+
+.cardbody h3{
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.cardbody p{
+    line-height: 28px;
+}
+
+.cardbody i{
+    font-size: 2.6rem;
+    color: rgb(24, 149, 149);
+}
+
+
+.cardimg img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer{
+    background: grey;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
